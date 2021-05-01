@@ -2,6 +2,7 @@ import datetime
 
 
 def get_player_name():
+    """ Fonction qui enregistre et retourne le prénom d'un joueur """
     player_name = input("Enter player's name : ")
     while player_name.isalpha() == False:
         player_name = input("Enter player's name : ")
@@ -9,6 +10,7 @@ def get_player_name():
 
 
 def get_player_surname():
+    """ Fonction qui enregistre et retourne le nom d'un joueur """
     player_surname = input("Enter player's surname : ")
     while player_surname.isalpha() == False:
         player_surname = input("Enter player's surname : ")
@@ -16,6 +18,7 @@ def get_player_surname():
 
 
 def get_player_birthday():
+    """ Fonction qui renregistre et retourne la date de naissance d'un joueur """
     player_birthday = ""
     while player_birthday == "":
         try:
@@ -28,6 +31,7 @@ def get_player_birthday():
 
 
 def get_player_sexe():
+    """ Fonction qui enregistre et retourne le sexe d'un joueur """
     player_sexe = input("Woman (W) or Man (M) ? : ")
     while player_sexe.upper() != "W" and player_sexe.upper() != "M":
         player_sexe = input("Woman (W) or Man (M) ? : ")
@@ -35,16 +39,8 @@ def get_player_sexe():
 
 
 def get_player_elo():
+    """ Fonction qui enregistre et retourne l'elo d'un joueur """
     player_elo = ""
     while player_elo.isdigit() == False:
         player_elo = input("Enter player's Rank (elo) : ")
     return player_elo
-
-
-def print_players(liste_players):
-    for player in liste_players:
-        print(f"name : {player.name}")
-        print(f"surname : {player.surname}")
-        print(f"birthday : {player.birthday}")
-        print(f"sexe : {player.sexe}")
-        print(f"elo : {player.elo}")
