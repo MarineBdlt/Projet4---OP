@@ -20,3 +20,18 @@ class Player:
     def add_score(self, score):
         """ Méthode qui ajoute des points au score du joueur """
         self.score += score
+
+    def serialize(self):
+        serialized_player = {
+            "Name": self.name,
+            "Surname": self.surname,
+            "Birthday": self.birthday,
+            "Sexe": self.sexe,
+            "ELO": self.elo,
+            "Score": self.score,
+        }
+        return serialized_player
+
+    def serialize_name(self):
+        serialized_player = {"Name": self.name, "Surname": self.surname}
+        return serialized_player

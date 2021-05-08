@@ -49,6 +49,6 @@ def enter_score(match):
 def print_match_result(match):
     """ Fonction qui imprime les résultats d'un match """
     print(
-        f"{match.player1.name} : {match.score_player1}",
-        f"\n{match.player2.name} : {match.score_player2}",
+        f"{match.player1.name} : {match.score1}",
+        f"\n{match.player2.name} : {match.score2}",
     )

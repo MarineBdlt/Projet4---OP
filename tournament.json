@@ -1,0 +1,184 @@
+{
+    "Tournament": {
+        "1": {
+            "Name": "Tournoia",
+            "Place": "Paris",
+            "Date": "Date",
+            "Numbers of rounds": 4,
+            "Players": [],
+            "Type": "",
+            "Description": "None",
+            "Rounds": []
+        },
+        "2": {
+            "Name": "Tournoia",
+            "Place": "Paris",
+            "Date": "Date",
+            "Numbers of rounds": 4,
+            "Players": [
+                {
+                    "Name": "Hugo0",
+                    "Surname": "Barrier0",
+                    "Birthday": "11-06-19960",
+                    "Sexe": "M0",
+                    "ELO": "elo",
+                    "Score": 0
+                },
+                {
+                    "Name": "Hugo1",
+                    "Surname": "Barrier1",
+                    "Birthday": "11-06-19961",
+                    "Sexe": "M1",
+                    "ELO": "elo",
+                    "Score": 0
+                },
+                {
+                    "Name": "Hugo2",
+                    "Surname": "Barrier2",
+                    "Birthday": "11-06-19962",
+                    "Sexe": "M2",
+                    "ELO": "elo",
+                    "Score": 0
+                },
+                {
+                    "Name": "Hugo3",
+                    "Surname": "Barrier3",
+                    "Birthday": "11-06-19963",
+                    "Sexe": "M3",
+                    "ELO": "elo",
+                    "Score": 0
+                },
+                {
+                    "Name": "Hugo4",
+                    "Surname": "Barrier4",
+                    "Birthday": "11-06-19964",
+                    "Sexe": "M4",
+                    "ELO": "elo",
+                    "Score": 0
+                },
+                {
+                    "Name": "Hugo5",
+                    "Surname": "Barrier5",
+                    "Birthday": "11-06-19965",
+                    "Sexe": "M5",
+                    "ELO": "elo",
+                    "Score": 0
+                },
+                {
+                    "Name": "Hugo6",
+                    "Surname": "Barrier6",
+                    "Birthday": "11-06-19966",
+                    "Sexe": "M6",
+                    "ELO": "elo",
+                    "Score": 0
+                },
+                {
+                    "Name": "Hugo7",
+                    "Surname": "Barrier7",
+                    "Birthday": "11-06-19967",
+                    "Sexe": "M7",
+                    "ELO": "elo",
+                    "Score": 0
+                }
+            ],
+            "Type": "",
+            "Description": "None",
+            "Rounds": []
+        },
+        "3": {
+            "Name": "Tournoi1",
+            "Place": "Paris",
+            "Date": "Date",
+            "Numbers of rounds": 4,
+            "Players": [],
+            "Type": "",
+            "Description": "None",
+            "Rounds": []
+        },
+        "4": {
+            "Name": "Tournoi1",
+            "Place": "Paris",
+            "Date": "Date",
+            "Numbers of rounds": 4,
+            "Players": [
+                {
+                    "Name": "Hugo0",
+                    "Surname": "Barrier0",
+                    "Birthday": "11-06-19960",
+                    "Sexe": "M0",
+                    "ELO": "elo",
+                    "Score": 0
+                },
+                {
+                    "Name": "Hugo1",
+                    "Surname": "Barrier1",
+                    "Birthday": "11-06-19961",
+                    "Sexe": "M1",
+                    "ELO": "elo",
+                    "Score": 0
+                },
+                {
+                    "Name": "Hugo2",
+                    "Surname": "Barrier2",
+                    "Birthday": "11-06-19962",
+                    "Sexe": "M2",
+                    "ELO": "elo",
+                    "Score": 0
+                },
+                {
+                    "Name": "Hugo3",
+                    "Surname": "Barrier3",
+                    "Birthday": "11-06-19963",
+                    "Sexe": "M3",
+                    "ELO": "elo",
+                    "Score": 0
+                },
+                {
+                    "Name": "Hugo4",
+                    "Surname": "Barrier4",
+                    "Birthday": "11-06-19964",
+                    "Sexe": "M4",
+                    "ELO": "elo",
+                    "Score": 0
+                },
+                {
+                    "Name": "Hugo5",
+                    "Surname": "Barrier5",
+                    "Birthday": "11-06-19965",
+                    "Sexe": "M5",
+                    "ELO": "elo",
+                    "Score": 0
+                },
+                {
+                    "Name": "Hugo6",
+                    "Surname": "Barrier6",
+                    "Birthday": "11-06-19966",
+                    "Sexe": "M6",
+                    "ELO": "elo",
+                    "Score": 0
+                },
+                {
+                    "Name": "Hugo7",
+                    "Surname": "Barrier7",
+                    "Birthday": "11-06-19967",
+                    "Sexe": "M7",
+                    "ELO": "elo",
+                    "Score": 0
+                }
+            ],
+            "Type": "",
+            "Description": "None",
+            "Rounds": []
+        },
+        "5": {
+            "Name": "Tournoi2",
+            "Place": "Paris",
+            "Date": "Date",
+            "Numbers of rounds": 4,
+            "Players": [],
+            "Type": "",
+            "Description": "None",
+            "Rounds": []
+        }
+    }
+}

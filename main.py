@@ -1,18 +1,27 @@
 from controler.TournamentControler import *
 
+db = TinyDB("tournament.json", ensure_ascii=False, encoding="utf8", indent=4)
+
 
 if __name__ == "__main__":
-    tournament = Tournament(
-        "Tournoi des 6 nations",
-        "paris",
-        "date",
-        4,
-        liste_players,
-        "timecontrol",
-        "description",
-    )
-    # (get_tournament_name(), get_tournament_place(), get_tournament_date(), 4, liste_players, get_tournament_time_control(), get_tournament_description(),)
-    lancement = TournamentControler(tournament)
+    lancement = TournamentControler(db)
 
-    lancement.run_first_round()
-    lancement.run_rounds()
+    a = lancement.new_tournament_created(db)
+    (lancement.init_players(a))
+
+    lancement2 = TournamentControler(db)
+
+    b = lancement.new_tournament_created(db)
+    (lancement2.init_players(b))
+
+
+# maîtriser les fonction db.truncate(), db.all(), db.search, db.insert() sur les tables
+# régler le problème de la date
+# seulement 3 joueurs dans les players, pourquoi ? --> seulement quand 2 tournois lancés
+
+# rentrer chaque player dans une liste d'acteurs
+# créer plusieurs tournois --> sorties de classe, même doc
+# ménage sur le TournamentController
+
+# si un tournoi écrase l'autre : est ce à cause de la mise à jour de tournament.table ?
+# update plutôt qu'insert ?

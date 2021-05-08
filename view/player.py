@@ -42,5 +42,5 @@ def get_player_elo():
     """ Fonction qui enregistre et retourne l'elo d'un joueur """
     player_elo = ""
     while player_elo.isdigit() == False:
-        player_elo = input("Enter player's Rank (elo) : ")
+        player_elo = input("Enter player's rank (ELO) : ")
     return player_elo
