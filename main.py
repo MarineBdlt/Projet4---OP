@@ -7,12 +7,12 @@ if __name__ == "__main__":
     lancement = TournamentControler(db)
 
     a = lancement.new_tournament_created(db)
-    (lancement.init_players(a))
+    lancement.run_rounds(lancement.run_first_round(lancement.init_players(a)))
 
-    lancement2 = TournamentControler(db)
+    # lancement2 = TournamentControler(db)
 
-    b = lancement.new_tournament_created(db)
-    (lancement2.init_players(b))
+    # b = lancement.new_tournament_created(db)
+    # (lancement2.init_players(b))
 
 
 # maîtriser les fonction db.truncate(), db.all(), db.search, db.insert() sur les tables
