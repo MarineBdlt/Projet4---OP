@@ -8,23 +8,18 @@ def get_tournament_name():
     confirm = ""
     while confirm.lower() != "y":
         name = input("Enter the tournament name : ")
-        r = re.match("^.*[A-Za-a].*", name)
-        if r:
-            print(f"The tournament name is : {name.capitalize()}")
-            confirm = input("Do you confirm ? (Y/N) : ")
-            if confirm.lower() == "y":
-                return name.capitalize()
-            else:
-                print("Please write it again.")
-        else:
-            print("The name doesn't contains letters. Please write it again.")
+        while name.isalpha() is False:
+            print("The name is not correct, write it again in letters : ")
+            name = input("Enter the tournament name : ")
+        print(f"{name.capitalize()} is created.")
+        return name.capitalize()
 
 
 def get_tournament_place():
     """ Fonction qui enregistre et renvoie le lieu du tournoi """
     place = input("Enter the tournament place : ")
     while place.isalpha() is False:
-        print("The place is not correct, write it again in letters : ")
+        print("The place is not correct, write it again in letters.")
         place = input("Enter the tournament place : ")
     print(f"The tournament takes place in {place.capitalize()}")
     return place.capitalize()
@@ -73,3 +68,7 @@ def print_players_scores(liste_players):
 
     print("\n\n")
     print(f"The winner(s) of the tournament is/are : {winners} ! Congrats !\n")
+
+
+def print_info(text):
+    print(text)

@@ -8,6 +8,7 @@ class Player:
         self.sexe = sexe
         self.elo = elo
         self.score = 0
+        self.opponents = []
 
     def print_player(self):
         """ Méthode qui imprime un les attributs d'un joueur """
@@ -21,6 +22,10 @@ class Player:
         """ Méthode qui ajoute des points au score du joueur """
         self.score += score
 
+    def add_opponent(self, player):
+        id_opponent = player.surname + player.elo
+        self.opponents.append(id_opponent)
+
     def serialize(self):
         serialized_player = {
             "Name": self.name,
@@ -28,10 +33,13 @@ class Player:
             "Birthday": self.birthday,
             "Sexe": self.sexe,
             "ELO": self.elo,
-            "Score": self.score,
         }
         return serialized_player
 
     def serialize_name(self):
         serialized_player = {"Name": self.name, "Surname": self.surname}
         return serialized_player
+
+    def serialize_score(self, tournament_name):
+        serialized_score = {f"Score {tournament_name}"}
+        return serialized_score
