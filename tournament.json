@@ -1,194 +1,690 @@
 {
+    "Tournoi": {
+        "1": {
+            "Name": "Tournoi",
+            "Place": "Paris",
+            "Date": "Date",
+            "Type": "",
+            "Description": "None",
+            "Players": [
+                {
+                    "Name": "Hugo0",
+                    "Surname": "Barrier0",
+                    "Birthday": "11-06-19960",
+                    "Sexe": "M0",
+                    "ELO": "elo"
+                },
+                {
+                    "Name": "Hugo5",
+                    "Surname": "Barrier5",
+                    "Birthday": "11-06-19965",
+                    "Sexe": "M5",
+                    "ELO": "elo"
+                },
+                {
+                    "Name": "Hugo2",
+                    "Surname": "Barrier2",
+                    "Birthday": "11-06-19962",
+                    "Sexe": "M2",
+                    "ELO": "elo"
+                },
+                {
+                    "Name": "Hugo7",
+                    "Surname": "Barrier7",
+                    "Birthday": "11-06-19967",
+                    "Sexe": "M7",
+                    "ELO": "elo"
+                },
+                {
+                    "Name": "Hugo1",
+                    "Surname": "Barrier1",
+                    "Birthday": "11-06-19961",
+                    "Sexe": "M1",
+                    "ELO": "elo"
+                },
+                {
+                    "Name": "Hugo4",
+                    "Surname": "Barrier4",
+                    "Birthday": "11-06-19964",
+                    "Sexe": "M4",
+                    "ELO": "elo"
+                },
+                {
+                    "Name": "Hugo6",
+                    "Surname": "Barrier6",
+                    "Birthday": "11-06-19966",
+                    "Sexe": "M6",
+                    "ELO": "elo"
+                },
+                {
+                    "Name": "Hugo3",
+                    "Surname": "Barrier3",
+                    "Birthday": "11-06-19963",
+                    "Sexe": "M3",
+                    "ELO": "elo"
+                }
+            ],
+            "Numbers of rounds": 4,
+            "Rounds": [
+                {
+                    "Name": "Round 1",
+                    "Date": "date",
+                    "Round start-time": "Sun May 16 19:28:39 2021",
+                    "Round end-time": null,
+                    "Round Matchs": [
+                        {
+                            "Player1": "Hugo0",
+                            "Score1": 1,
+                            "Player2": "Hugo4",
+                            "Score2": 0
+                        },
+                        {
+                            "Player1": "Hugo1",
+                            "Score1": 0,
+                            "Player2": "Hugo5",
+                            "Score2": 1
+                        },
+                        {
+                            "Player1": "Hugo2",
+                            "Score1": 1,
+                            "Player2": "Hugo6",
+                            "Score2": 0
+                        },
+                        {
+                            "Player1": "Hugo3",
+                            "Score1": 0,
+                            "Player2": "Hugo7",
+                            "Score2": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Round 2",
+                    "Date": "date",
+                    "Round start-time": "Sun May 16 19:28:42 2021",
+                    "Round end-time": null,
+                    "Round Matchs": [
+                        {
+                            "Player1": "Hugo0",
+                            "Score1": 1,
+                            "Player2": "Hugo2",
+                            "Score2": 0
+                        },
+                        {
+                            "Player1": "Hugo5",
+                            "Score1": 0,
+                            "Player2": "Hugo7",
+                            "Score2": 1
+                        },
+                        {
+                            "Player1": "Hugo1",
+                            "Score1": 1,
+                            "Player2": "Hugo3",
+                            "Score2": 0
+                        },
+                        {
+                            "Player1": "Hugo4",
+                            "Score1": 0,
+                            "Player2": "Hugo6",
+                            "Score2": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Round 3",
+                    "Date": "date",
+                    "Round start-time": "Sun May 16 19:28:44 2021",
+                    "Round end-time": null,
+                    "Round Matchs": [
+                        {
+                            "Player1": "Hugo0",
+                            "Score1": 1,
+                            "Player2": "Hugo7",
+                            "Score2": 0
+                        },
+                        {
+                            "Player1": "Hugo1",
+                            "Score1": 0,
+                            "Player2": "Hugo2",
+                            "Score2": 1
+                        },
+                        {
+                            "Player1": "Hugo5",
+                            "Score1": 1,
+                            "Player2": "Hugo6",
+                            "Score2": 0
+                        },
+                        {
+                            "Player1": "Hugo3",
+                            "Score1": 0,
+                            "Player2": "Hugo4",
+                            "Score2": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Round 4",
+                    "Date": "date",
+                    "Round start-time": "Sun May 16 19:28:47 2021",
+                    "Round end-time": null,
+                    "Round Matchs": [
+                        {
+                            "Player1": "Hugo0",
+                            "Score1": 1,
+                            "Player2": "Hugo5",
+                            "Score2": 0
+                        },
+                        {
+                            "Player1": "Hugo2",
+                            "Score1": 0,
+                            "Player2": "Hugo7",
+                            "Score2": 1
+                        },
+                        {
+                            "Player1": "Hugo1",
+                            "Score1": 1,
+                            "Player2": "Hugo4",
+                            "Score2": 0
+                        },
+                        {
+                            "Player1": "Hugo6",
+                            "Score1": 0,
+                            "Player2": "Hugo3",
+                            "Score2": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "Tournoiiii": {
+        "1": {
+            "Name": "Tournoiiii",
+            "Place": "Paris",
+            "Date": "Date",
+            "Type": "",
+            "Description": "None",
+            "Players": [
+                {
+                    "Name": "Hugo0",
+                    "Surname": "Barrier0",
+                    "Birthday": "11-06-19960",
+                    "Sexe": "M0",
+                    "ELO": "elo"
+                },
+                {
+                    "Name": "Hugo5",
+                    "Surname": "Barrier5",
+                    "Birthday": "11-06-19965",
+                    "Sexe": "M5",
+                    "ELO": "elo"
+                },
+                {
+                    "Name": "Hugo2",
+                    "Surname": "Barrier2",
+                    "Birthday": "11-06-19962",
+                    "Sexe": "M2",
+                    "ELO": "elo"
+                },
+                {
+                    "Name": "Hugo7",
+                    "Surname": "Barrier7",
+                    "Birthday": "11-06-19967",
+                    "Sexe": "M7",
+                    "ELO": "elo"
+                },
+                {
+                    "Name": "Hugo1",
+                    "Surname": "Barrier1",
+                    "Birthday": "11-06-19961",
+                    "Sexe": "M1",
+                    "ELO": "elo"
+                },
+                {
+                    "Name": "Hugo4",
+                    "Surname": "Barrier4",
+                    "Birthday": "11-06-19964",
+                    "Sexe": "M4",
+                    "ELO": "elo"
+                },
+                {
+                    "Name": "Hugo6",
+                    "Surname": "Barrier6",
+                    "Birthday": "11-06-19966",
+                    "Sexe": "M6",
+                    "ELO": "elo"
+                },
+                {
+                    "Name": "Hugo3",
+                    "Surname": "Barrier3",
+                    "Birthday": "11-06-19963",
+                    "Sexe": "M3",
+                    "ELO": "elo"
+                }
+            ],
+            "Numbers of rounds": 4,
+            "Rounds": [
+                {
+                    "Name": "Round 1",
+                    "Date": "date",
+                    "Round start-time": "Sun May 16 19:32:04 2021",
+                    "Round end-time": null,
+                    "Round Matchs": [
+                        {
+                            "Player1": "Hugo0",
+                            "Score1": 1,
+                            "Player2": "Hugo4",
+                            "Score2": 0
+                        },
+                        {
+                            "Player1": "Hugo1",
+                            "Score1": 0,
+                            "Player2": "Hugo5",
+                            "Score2": 1
+                        },
+                        {
+                            "Player1": "Hugo2",
+                            "Score1": 1,
+                            "Player2": "Hugo6",
+                            "Score2": 0
+                        },
+                        {
+                            "Player1": "Hugo3",
+                            "Score1": 0,
+                            "Player2": "Hugo7",
+                            "Score2": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Round 2",
+                    "Date": "date",
+                    "Round start-time": "Sun May 16 19:32:08 2021",
+                    "Round end-time": null,
+                    "Round Matchs": [
+                        {
+                            "Player1": "Hugo0",
+                            "Score1": 1,
+                            "Player2": "Hugo2",
+                            "Score2": 0
+                        },
+                        {
+                            "Player1": "Hugo5",
+                            "Score1": 0,
+                            "Player2": "Hugo7",
+                            "Score2": 1
+                        },
+                        {
+                            "Player1": "Hugo1",
+                            "Score1": 1,
+                            "Player2": "Hugo3",
+                            "Score2": 0
+                        },
+                        {
+                            "Player1": "Hugo4",
+                            "Score1": 0,
+                            "Player2": "Hugo6",
+                            "Score2": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Round 3",
+                    "Date": "date",
+                    "Round start-time": "Sun May 16 19:32:09 2021",
+                    "Round end-time": null,
+                    "Round Matchs": [
+                        {
+                            "Player1": "Hugo0",
+                            "Score1": 1,
+                            "Player2": "Hugo7",
+                            "Score2": 0
+                        },
+                        {
+                            "Player1": "Hugo1",
+                            "Score1": 0,
+                            "Player2": "Hugo2",
+                            "Score2": 1
+                        },
+                        {
+                            "Player1": "Hugo5",
+                            "Score1": 1,
+                            "Player2": "Hugo6",
+                            "Score2": 0
+                        },
+                        {
+                            "Player1": "Hugo3",
+                            "Score1": 0,
+                            "Player2": "Hugo4",
+                            "Score2": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Round 4",
+                    "Date": "date",
+                    "Round start-time": "Sun May 16 19:32:11 2021",
+                    "Round end-time": null,
+                    "Round Matchs": [
+                        {
+                            "Player1": "Hugo0",
+                            "Score1": 1,
+                            "Player2": "Hugo5",
+                            "Score2": 0
+                        },
+                        {
+                            "Player1": "Hugo2",
+                            "Score1": 0,
+                            "Player2": "Hugo7",
+                            "Score2": 1
+                        },
+                        {
+                            "Player1": "Hugo1",
+                            "Score1": 1,
+                            "Player2": "Hugo4",
+                            "Score2": 0
+                        },
+                        {
+                            "Player1": "Hugo6",
+                            "Score1": 0,
+                            "Player2": "Hugo3",
+                            "Score2": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    },
     "Tournament": {
         "1": {
-            "Name": "Tournoia",
+            "Name": "Tournament",
             "Place": "Paris",
             "Date": "Date",
-            "Numbers of rounds": 4,
-            "Players": [],
             "Type": "",
             "Description": "None",
-            "Rounds": []
-        },
-        "2": {
-            "Name": "Tournoia",
-            "Place": "Paris",
-            "Date": "Date",
-            "Numbers of rounds": 4,
             "Players": [
                 {
                     "Name": "Hugo0",
                     "Surname": "Barrier0",
                     "Birthday": "11-06-19960",
                     "Sexe": "M0",
-                    "ELO": "elo",
-                    "Score": 0
-                },
-                {
-                    "Name": "Hugo1",
-                    "Surname": "Barrier1",
-                    "Birthday": "11-06-19961",
-                    "Sexe": "M1",
-                    "ELO": "elo",
-                    "Score": 0
+                    "ELO": "elo"
                 },
                 {
                     "Name": "Hugo2",
                     "Surname": "Barrier2",
                     "Birthday": "11-06-19962",
                     "Sexe": "M2",
-                    "ELO": "elo",
-                    "Score": 0
-                },
-                {
-                    "Name": "Hugo3",
-                    "Surname": "Barrier3",
-                    "Birthday": "11-06-19963",
-                    "Sexe": "M3",
-                    "ELO": "elo",
-                    "Score": 0
+                    "ELO": "elo"
                 },
                 {
                     "Name": "Hugo4",
                     "Surname": "Barrier4",
                     "Birthday": "11-06-19964",
                     "Sexe": "M4",
-                    "ELO": "elo",
-                    "Score": 0
+                    "ELO": "elo"
                 },
                 {
                     "Name": "Hugo5",
                     "Surname": "Barrier5",
                     "Birthday": "11-06-19965",
                     "Sexe": "M5",
-                    "ELO": "elo",
-                    "Score": 0
+                    "ELO": "elo"
                 },
                 {
                     "Name": "Hugo6",
                     "Surname": "Barrier6",
                     "Birthday": "11-06-19966",
                     "Sexe": "M6",
-                    "ELO": "elo",
-                    "Score": 0
+                    "ELO": "elo"
                 },
                 {
                     "Name": "Hugo7",
                     "Surname": "Barrier7",
                     "Birthday": "11-06-19967",
                     "Sexe": "M7",
-                    "ELO": "elo",
-                    "Score": 0
+                    "ELO": "elo"
+                },
+                {
+                    "Name": "Hugo1",
+                    "Surname": "Barrier1",
+                    "Birthday": "11-06-19961",
+                    "Sexe": "M1",
+                    "ELO": "elo"
+                },
+                {
+                    "Name": "Hugo3",
+                    "Surname": "Barrier3",
+                    "Birthday": "11-06-19963",
+                    "Sexe": "M3",
+                    "ELO": "elo"
                 }
             ],
-            "Type": "",
-            "Description": "None",
-            "Rounds": []
-        },
-        "3": {
-            "Name": "Tournoi1",
+            "Numbers of rounds": 4,
+            "Rounds": [
+                {
+                    "Name": "Round 1",
+                    "Date": "date",
+                    "Round start-time": "Sun May 16 21:04:38 2021",
+                    "Round end-time": null,
+                    "Round Matchs": [
+                        {
+                            "Player1": "Hugo0",
+                            "Score1": 1,
+                            "Player2": "Hugo4",
+                            "Score2": 0
+                        },
+                        {
+                            "Player1": "Hugo1",
+                            "Score1": 0,
+                            "Player2": "Hugo5",
+                            "Score2": 1
+                        },
+                        {
+                            "Player1": "Hugo2",
+                            "Score1": 0.5,
+                            "Player2": "Hugo6",
+                            "Score2": 0.5
+                        },
+                        {
+                            "Player1": "Hugo3",
+                            "Score1": 0,
+                            "Player2": "Hugo7",
+                            "Score2": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Round 2",
+                    "Date": "date",
+                    "Round start-time": "Sun May 16 21:04:41 2021",
+                    "Round end-time": null,
+                    "Round Matchs": [
+                        {
+                            "Player1": "Hugo0",
+                            "Score1": 1,
+                            "Player2": "Hugo5",
+                            "Score2": 0
+                        },
+                        {
+                            "Player1": "Hugo7",
+                            "Score1": 0,
+                            "Player2": "Hugo2",
+                            "Score2": 1
+                        },
+                        {
+                            "Player1": "Hugo6",
+                            "Score1": 0.5,
+                            "Player2": "Hugo1",
+                            "Score2": 0.5
+                        },
+                        {
+                            "Player1": "Hugo3",
+                            "Score1": 0,
+                            "Player2": "Hugo4",
+                            "Score2": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Round 3",
+                    "Date": "date",
+                    "Round start-time": "Sun May 16 21:04:42 2021",
+                    "Round end-time": null,
+                    "Round Matchs": [
+                        {
+                            "Player1": "Hugo0",
+                            "Score1": 1,
+                            "Player2": "Hugo2",
+                            "Score2": 0
+                        },
+                        {
+                            "Player1": "Hugo4",
+                            "Score1": 0,
+                            "Player2": "Hugo5",
+                            "Score2": 1
+                        },
+                        {
+                            "Player1": "Hugo6",
+                            "Score1": 0.5,
+                            "Player2": "Hugo7",
+                            "Score2": 0.5
+                        },
+                        {
+                            "Player1": "Hugo1",
+                            "Score1": 0,
+                            "Player2": "Hugo3",
+                            "Score2": 1
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "Tournamentencours": {
+        "1": {
+            "Name": "Tournamentencours",
             "Place": "Paris",
             "Date": "Date",
-            "Numbers of rounds": 4,
-            "Players": [],
             "Type": "",
             "Description": "None",
-            "Rounds": []
-        },
-        "4": {
-            "Name": "Tournoi1",
-            "Place": "Paris",
-            "Date": "Date",
-            "Numbers of rounds": 4,
             "Players": [
+                {
+                    "Name": "Hugo3",
+                    "Surname": "Barrier3",
+                    "Birthday": "11-06-19963",
+                    "Sexe": "M3",
+                    "ELO": "elo"
+                },
+                {
+                    "Name": "Hugo4",
+                    "Surname": "Barrier4",
+                    "Birthday": "11-06-19964",
+                    "Sexe": "M4",
+                    "ELO": "elo"
+                },
+                {
+                    "Name": "Hugo7",
+                    "Surname": "Barrier7",
+                    "Birthday": "11-06-19967",
+                    "Sexe": "M7",
+                    "ELO": "elo"
+                },
                 {
                     "Name": "Hugo0",
                     "Surname": "Barrier0",
                     "Birthday": "11-06-19960",
                     "Sexe": "M0",
-                    "ELO": "elo",
-                    "Score": 0
-                },
-                {
-                    "Name": "Hugo1",
-                    "Surname": "Barrier1",
-                    "Birthday": "11-06-19961",
-                    "Sexe": "M1",
-                    "ELO": "elo",
-                    "Score": 0
-                },
-                {
-                    "Name": "Hugo2",
-                    "Surname": "Barrier2",
-                    "Birthday": "11-06-19962",
-                    "Sexe": "M2",
-                    "ELO": "elo",
-                    "Score": 0
-                },
-                {
-                    "Name": "Hugo3",
-                    "Surname": "Barrier3",
-                    "Birthday": "11-06-19963",
-                    "Sexe": "M3",
-                    "ELO": "elo",
-                    "Score": 0
-                },
-                {
-                    "Name": "Hugo4",
-                    "Surname": "Barrier4",
-                    "Birthday": "11-06-19964",
-                    "Sexe": "M4",
-                    "ELO": "elo",
-                    "Score": 0
-                },
-                {
-                    "Name": "Hugo5",
-                    "Surname": "Barrier5",
-                    "Birthday": "11-06-19965",
-                    "Sexe": "M5",
-                    "ELO": "elo",
-                    "Score": 0
-                },
-                {
-                    "Name": "Hugo6",
-                    "Surname": "Barrier6",
-                    "Birthday": "11-06-19966",
-                    "Sexe": "M6",
-                    "ELO": "elo",
-                    "Score": 0
-                },
-                {
-                    "Name": "Hugo7",
-                    "Surname": "Barrier7",
-                    "Birthday": "11-06-19967",
-                    "Sexe": "M7",
-                    "ELO": "elo",
-                    "Score": 0
+                    "ELO": "elo"
                 }
             ],
-            "Type": "",
-            "Description": "None",
-            "Rounds": []
-        },
-        "5": {
-            "Name": "Tournoi2",
-            "Place": "Paris",
-            "Date": "Date",
             "Numbers of rounds": 4,
-            "Players": [],
-            "Type": "",
-            "Description": "None",
-            "Rounds": []
-        },
-        "6": {
-            "Name": "Tournoitest",
-            "Place": "Paris",
-            "Date": "Date",
-            "Type": "",
-            "Description": "None",
-            "Players": [],
-            "Numbers of rounds": 4,
-            "Rounds": []
+            "Rounds": [
+                {
+                    "Name": "Round 1",
+                    "Date": "date",
+                    "Round start-time": "Sun May 16 21:05:49 2021",
+                    "Round end-time": null,
+                    "Round Matchs": [
+                        {
+                            "Player1": "Hugo0",
+                            "Score1": 1,
+                            "Player2": "Hugo4",
+                            "Score2": 0
+                        },
+                        {
+                            "Player1": "Hugo1",
+                            "Score1": 0,
+                            "Player2": "Hugo5",
+                            "Score2": 1
+                        },
+                        {
+                            "Player1": "Hugo2",
+                            "Score1": 0.5,
+                            "Player2": "Hugo6",
+                            "Score2": 0.5
+                        },
+                        {
+                            "Player1": "Hugo3",
+                            "Score1": 0,
+                            "Player2": "Hugo7",
+                            "Score2": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Round 2",
+                    "Date": "date",
+                    "Round start-time": "Tue May 18 10:40:01 2021",
+                    "Round end-time": null,
+                    "Round Matchs": [
+                        {
+                            "Player1": "Hugo0",
+                            "Score1": 0.5,
+                            "Player2": "Hugo1",
+                            "Score2": 0.5
+                        },
+                        {
+                            "Player1": "Hugo2",
+                            "Score1": 0,
+                            "Player2": "Hugo3",
+                            "Score2": 1
+                        },
+                        {
+                            "Player1": "Hugo4",
+                            "Score1": 1,
+                            "Player2": "Hugo5",
+                            "Score2": 0
+                        },
+                        {
+                            "Player1": "Hugo6",
+                            "Score1": 0,
+                            "Player2": "Hugo7",
+                            "Score2": 1
+                        }
+                    ]
+                },
+                {
+                    "Name": "Round 3",
+                    "Date": "date",
+                    "Round start-time": "Tue May 18 10:40:42 2021",
+                    "Round end-time": null,
+                    "Round Matchs": [
+                        {
+                            "Player1": "Hugo3",
+                            "Score1": 0.5,
+                            "Player2": "Hugo4",
+                            "Score2": 0.5
+                        },
+                        {
+                            "Player1": "Hugo7",
+                            "Score1": 0,
+                            "Player2": "Hugo0",
+                            "Score2": 1
+                        }
+                    ]
+                }
+            ]
         }
     }
 }

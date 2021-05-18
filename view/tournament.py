@@ -69,6 +69,8 @@ def print_players_scores(liste_players):
     print("\n\n")
     print(f"The winner(s) of the tournament is/are : {winners} ! Congrats !\n")
 
+    return winners
+
 
 def print_info(text):
     print(text)

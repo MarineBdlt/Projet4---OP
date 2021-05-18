@@ -246,6 +246,7 @@ class TournamentControler:
             match.player1.add_score(match.score1)
             match.player2.add_score(match.score2)
 
+            """
             actor_table = actors_db.table(f"{match.player1.name}")
             actor_table.insert_multiple(
                 [
@@ -255,6 +256,7 @@ class TournamentControler:
                     },
                 ]
             )
+            """
 
             tournament_table.truncate()
             tournament_table.insert(self.tournament_progress.serialized_tournament)
@@ -339,6 +341,8 @@ class TournamentControler:
 
                 tournament_table.update(self.tournament_progress.serialized_tournament)
 
+                """
+
                 actor_table = actors_db.table(f"{match.player1.name}")
                 actor_table.update(
                     {f"Score {self.tournament_progress.name}": match.player1.score}
@@ -348,6 +352,7 @@ class TournamentControler:
                         f"Opponents {self.tournament_progress.name}": match.player1.opponents
                     }
                 )
+                """
 
             # ajouter score dans db après chaque match
             next_round.endtime = vr.get_round_endtime()
@@ -365,6 +370,99 @@ class TournamentControler:
         vt.print_info(
             f"{self.tournament_progress.name} is over !\n--------------------------------------\n"
         )
-        vt.print_players_scores(self.tournament_progress.players)
+        vt.print_players_scores(self.tournament_progress.players)  # winners
 
         return tournament_table, actors_db
+
+    def run_ungoing_tournament(self, db, tournament_name, actors_db):
+        tournament_table = db.table(f"{tournament_name}")
+
+        self.instanciation_tournament(tournament_table, tournament_name)
+        self.instanciation_players()
+        self.instanciation_rounds()
+
+        last_round_index = 0
+
+        for i in range(len(self.tournament_progress.rounds) - 1):
+            self.instanciation_matchs(i)
+            last_round_index += 1
+
+        r = len(self.tournament_progress.rounds)
+        m = len(self.tournament_progress.rounds[last_round_index].matchs)
+
+        if r == 0 and m < 3:
+            self.run_first_round(tournament_table, actors_db)
+        elif r == 1 and m < 3:
+            self.run_rounds(tournament_table, actors_db, next_round_number=2)
+        elif r == 2 and m < 3:
+            self.run_rounds(tournament_table, actors_db, next_round_number=3)
+        elif r == 3 and m < 3:
+            self.run_rounds(tournament_table, actors_db, next_round_number=4)
+
+    def instanciation_tournament(self, tournament_table, tournament_name):
+        liste_tournament = tournament_table.search(where("Name") == tournament_name)
+        data = liste_tournament[0]
+
+        self.tournament_progress = Tournament(
+            data["Name"],
+            data["Place"],
+            data["Date"],
+            data["Numbers of rounds"],
+            data["Rounds"],
+            [],
+            data["Players"],
+            data["Type"],
+            data["Description"],
+        )
+
+    def instanciation_players(self):
+        for serialized_player in self.tournament_progress.serialized_players:
+
+            p = Player(
+                serialized_player["Name"],
+                serialized_player["Surname"],
+                serialized_player["Birthday"],
+                serialized_player["Sexe"],
+                serialized_player["ELO"],
+            )
+            self.tournament_progress.add_player(p)
+
+    def instanciation_rounds(self):
+        for serialized_round in self.tournament_progress.serialized_rounds:
+
+            r = Round(
+                serialized_round["Name"],
+                serialized_round["Date"],
+                serialized_round["Round start-time"],
+                serialized_round["Round end-time"],
+                [],
+            )
+
+            self.tournament_progress.add_round(r)
+
+    def instanciation_matchs(self, i):
+        round_table = self.tournament_progress.serialized_rounds[i]
+        round_matchs = round_table["Round Matchs"]
+
+        for s_match in round_matchs:
+            print(s_match)
+            m = Match(
+                player1=s_match["Player1"],
+                player2=s_match["Player2"],
+                score1=s_match["Score1"],
+                score2=s_match["Score2"],
+            )
+
+            self.tournament_progress.rounds[i].add_match(m.player1, m.player2)
+
+        """
+        def run_new_tournament():
+
+        lancement1 = TournamentControler()
+
+        tournament_table = lancement1.new_tournament_created(db)
+
+        lancement1.init_players(tournament_table, actors_db)
+        lancement1.run_first_round(tournament_table, actors_db)
+        lancement1.run_rounds(tournament_table, actors_db)
+        """
