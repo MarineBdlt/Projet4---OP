@@ -22,11 +22,11 @@ def get_player_birthday():
     player_birthday = ""
     while player_birthday == "":
         try:
-            player_birthday = input("Enter player's birthday (jj-mm-aaaa) : ")
+            player_birthday = input("Enter player's birthday (dd-mm-yyyy) : ")
             datetime.datetime.strptime(player_birthday, "%d-%m-%Y")
             return player_birthday
         except ValueError:
-            print("Incorrect data format, should be YYYY-MM-DD")
+            print("Incorrect data format, should be DD-MM-YYYY")
             player_birthday = ""
 
 
