@@ -9,7 +9,7 @@ def get_tournament_name():
     while re.match("^.*[a-z].*$", name) == None:
         print("The name is not correct, write it again in letters.")
         name = input("Enter the tournament name : ")
-    print(f"{name.capitalize()} is created.")
+    print(f"{name.capitalize()}")
     return name.capitalize()
 
 

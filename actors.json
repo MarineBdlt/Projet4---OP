@@ -70,5 +70,77 @@
             "Sexe": "w",
             "ELO": "180"
         }
+    },
+    "Jeanne": {
+        "1": {
+            "Name": "Jeanne",
+            "Surname": "Darc",
+            "Birthday": "12-12-2012",
+            "Sexe": "w",
+            "ELO": "120"
+        }
+    },
+    "Napoléon": {
+        "1": {
+            "Name": "Napoléon",
+            "Surname": "Bonaparte",
+            "Birthday": "01-01-2001",
+            "Sexe": "m",
+            "ELO": "110"
+        }
+    },
+    "Charles": {
+        "1": {
+            "Name": "Charles",
+            "Surname": "Pétain",
+            "Birthday": "02-02-2020",
+            "Sexe": "m",
+            "ELO": "100"
+        }
+    },
+    "Sophie": {
+        "1": {
+            "Name": "Sophie",
+            "Surname": "Marceau",
+            "Birthday": "03-03-2003",
+            "Sexe": "w",
+            "ELO": "90"
+        }
+    },
+    "Don": {
+        "1": {
+            "Name": "Don",
+            "Surname": "Quichotte",
+            "Birthday": "04-04-2004",
+            "Sexe": "m",
+            "ELO": "80"
+        }
+    },
+    "Stefan": {
+        "1": {
+            "Name": "Stefan",
+            "Surname": "Sweig",
+            "Birthday": "06-06-2006",
+            "Sexe": "m",
+            "ELO": "70"
+        }
+    },
+    "Sigmund": {
+        "1": {
+            "Name": "Sigmund",
+            "Surname": "Freud",
+            "Birthday": "07-07-2007",
+            "Sexe": "m",
+            "ELO": "60"
+        }
+    },
+    "Marylin": {
+        "1": {
+            "Name": "Marylin",
+            "Surname": "Monroe",
+            "Birthday": "09-09-2009",
+            "Sexe": "w",
+            "ELO": "50"
+        }
     }
 }

@@ -23,9 +23,12 @@ class TournamentControler:
             vt.get_tournament_date(),
             4,
             [],
+            [],
+            [],
             vt.get_tournament_time_control(),
             vt.get_tournament_description(),
         )
+
         tournament_table = db.table(f"{self.tournament_progress.name}")
 
         serialized_tournament = self.tournament_progress.serialize()
