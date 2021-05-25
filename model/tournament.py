@@ -1,7 +1,3 @@
-from model.player import Player
-from view.tournament import *
-
-
 class Tournament:
     """ Classe qui instancie un tournoi """
 
@@ -19,7 +15,7 @@ class Tournament:
     ):
         self.name = name
         self.place = place
-        self.date = date
+        self.date = str(date)
         self.serialized_tournament = ""
 
         self.number_of_rounds = number_of_rounds
@@ -30,7 +26,7 @@ class Tournament:
         self.players = []
         self.serialized_players = serialized_players
 
-        self.time_control = ""
+        self.time_control = time_control
         self.description = description
 
     def add_player(self, player):
@@ -45,7 +41,7 @@ class Tournament:
         serialized_tournament = {
             "Name": self.name,
             "Place": self.place,
-            "Date": "Date",  # self.date, Object of type date is not JSON serializable
+            "Date": self.date,
             "Type": self.time_control,
             "Description": self.description,
             "Players": self.serialized_players,

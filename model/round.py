@@ -4,7 +4,7 @@ from model.match import Match
 class Round:
     """ Classe qui instancie un round """
 
-    def __init__(self, name, date, starttime, endtime=None, matchs=None):
+    def __init__(self, name, date, starttime, endtime, matchs=None):
         self.name = name
         self.date = date
         self.starttime = starttime
@@ -20,9 +20,12 @@ class Round:
     def serialize(self):
         serialized_round = {
             "Name": self.name,
-            "Date": "date",  # self.date not JSON serializable
-            f"Round start-time": self.starttime,
-            f"Round end-time": self.endtime,
-            f"Round Matchs": self.serialized_matchs,
+            "Date": self.date,
+            "Round start-time": self.starttime,
+            "Round Matchs": self.serialized_matchs,
         }
         return serialized_round
+
+    def serialize_endtime(self):
+        serialized_endtime = {"Round end-time": self.endtime}
+        return serialized_endtime

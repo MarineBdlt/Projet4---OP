@@ -1,5 +1,4 @@
-from model.tournament import *
-from datetime import date, time
+from datetime import date
 import re
 
 
@@ -26,7 +25,7 @@ def get_tournament_place():
 def get_tournament_date():
     """ Fonction qui enregistre la date """
     tournament_date = date.today()
-    return tournament_date
+    return tournament_date.strftime("%d/%m/%Y")
 
 
 def get_tournament_time_control():
@@ -50,7 +49,7 @@ def get_tournament_description():
 
 def print_players_scores(liste_players):
     """ Fonction qui imprime les résultats"""
-    print(f"Results of the tournament : \n")
+    print("Results of the tournament : \n")
 
     dict_score = {}
     for player in liste_players:

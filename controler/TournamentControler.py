@@ -6,8 +6,7 @@ from model.match import Match
 from model.round import Round
 from model.tournament import Tournament
 
-from tinydb import TinyDB, Query, where
-from tinydb.operations import delete
+from tinydb import Query, where
 
 
 class TournamentControler:
@@ -20,7 +19,7 @@ class TournamentControler:
         self.tournament_progress = Tournament(
             vt.get_tournament_name(),
             vt.get_tournament_place(),
-            vt.get_tournament_date(),
+            str(vt.get_tournament_date()),
             4,
             [],
             [],
@@ -52,7 +51,6 @@ class TournamentControler:
             serialized_player = player.serialize()
             actor_table = actors_db.table(f"{name}")
 
-            # if actor_table.search(where("Name") == name) = None:
             User = Query()
             actor_table.upsert(serialized_player, User.name == name)
 
@@ -118,8 +116,8 @@ class TournamentControler:
     def run_first_round(self, tournament_table, actors_db):
         """ Fonction qui fait tourner le premier round """
         round_name = "Round 1"
-        round_date = vr.get_round_date()
-        round_starttime = vr.get_round_starttime()
+        round_date = str(vr.get_round_date())
+        round_starttime = str(vr.get_round_starttime())
         round1 = Round(round_name, round_date, round_starttime)
         serialized_round1 = round1.serialize()
 
@@ -162,7 +160,7 @@ class TournamentControler:
             tournament_table.truncate()
             tournament_table.insert(self.tournament_progress.serialized_tournament)
 
-        round1.endtime = vr.get_round_endtime()
+        round1.endtime = str(vr.get_round_endtime())
         serialized_round1 = {
             "Round end-time": round1.endtime,
             "Round Matchs": round1.serialized_matchs,
@@ -183,7 +181,8 @@ class TournamentControler:
             round_name = f"Round {i}"
             round_date = vr.get_round_date()
             round_starttime = vr.get_round_starttime()
-            next_round = Round(round_name, round_date, round_starttime)
+            round_endtime = " "
+            next_round = Round(round_name, round_date, round_starttime, round_endtime)
             self.tournament_progress.add_round(next_round)
 
             serialized_next_round = next_round.serialize()
@@ -228,6 +227,18 @@ class TournamentControler:
                 tournament_table.update(self.tournament_progress.serialized_tournament)
 
             next_round.endtime = vr.get_round_endtime()
+            endtime = next_round.serialize_endtime()
+
+            self.tournament_progress.serialized_rounds.append(endtime)
+            self.tournament_progress.serialized_rounds = (
+                self.tournament_progress.serialized_rounds
+            )
+            self.serialized_tournament = self.tournament_progress.serialize()
+            self.tournament_progress.serialized_tournament = (
+                self.tournament_progress.serialize()
+            )
+
+            tournament_table.update(self.tournament_progress.serialized_tournament)
             vt.print_info(f"End of the {round_name} at {next_round.endtime}.")
             vt.print_info("\n--------------------------------------\n")
             i += 1

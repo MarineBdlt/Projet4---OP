@@ -1,5 +1,4 @@
-from tinydb import TinyDB, Query, where
-from tinydb.operations import delete
+from tinydb import where
 
 
 def actors_list(actors_db):
@@ -32,16 +31,24 @@ def report_actors_alpha(all_data):
     return f"List of actors by alphabetical order \n-----------------------\n{str_list}"
 
 
-def report_actors_elo(all_data):  # trier par number join "data" trop tôt
+def report_actors_elo(all_data):
     """ Fonction qui print la liste des acteurs par rang de ELO """
+
     list_actors = []
     for data in all_data:
+        print(data)
         data.reverse()
-        actor = " ".join(data)
-        list_actors.append(actor)
-    sorted_list = sorted(list_actors)
-    str_list = "\n\n".join(sorted_list)
-    return f"List of all actors by ELO rank \n-------------------\n{str_list}"
+        data[0] = int(data[0])
+        list_actors.append(data)
+        print(data)
+    sorted_list = sorted(list_actors, key=lambda x: x[0])
+    print(sorted_list)
+
+    str_list = []
+    for element in sorted_list:
+        e = f"{element[0]} {element[1]} {element[2]}\n"
+        str_list.append(e)
+    return " ".join(str_list)
 
 
 def report_tournaments(db):
