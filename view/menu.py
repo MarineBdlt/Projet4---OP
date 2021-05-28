@@ -14,9 +14,6 @@ app.geometry("690x200")
 app.title("Chess Tournaments")
 app.config(background="black")
 
-# app.iconbitmap("chesslogo.ico")
-
-
 lancement = TournamentControler()
 
 mainmenu = tkinter.Menu()

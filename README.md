@@ -56,6 +56,10 @@ Once the console has been placed in the program folder, simply run the following
 
 A menu will open offering the different options of the application. 
 
+## flake8
+
+To regenerate a flake8 report, launch "flake8" at the root of the project.
+
 ## Made with
 VisualStudioCode](https://code.visualstudio.com/) - Text editor
 
