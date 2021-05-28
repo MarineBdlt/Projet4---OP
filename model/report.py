@@ -45,7 +45,11 @@ class Report:
         list_tournaments = r.report_tournaments(db)
         about_window = tkinter.Toplevel(app)
         about_window.title("Liste des tournois")
+        about_window.config(background="black")
+        about_window.config(fg="white")
         lb = tkinter.Label(about_window, text=(f"{list_tournaments}"))
+        lb.config(background="white")
+        lb.config(fg="red")
         lb.pack()
 
     def show_actors_alpha(self):

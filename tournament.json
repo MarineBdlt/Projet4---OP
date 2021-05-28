@@ -144,9 +144,8 @@
                 },
                 {
                     "Name": "Round 3",
-                    "Date": "date",
-                    "Round start-time": "Mon May 24 13:34:16 2021",
-                    "Round end-time": null,
+                    "Date": "26/05/2021",
+                    "Round start-time": "Wed May 26 00:16:16 2021",
                     "Round Matchs": [
                         {
                             "Player1": "Bug",
@@ -175,10 +174,12 @@
                     ]
                 },
                 {
+                    "Round end-time": "Wed May 26 00:16:21 2021"
+                },
+                {
                     "Name": "Round 4",
-                    "Date": "date",
-                    "Round start-time": "Mon May 24 13:34:26 2021",
-                    "Round end-time": null,
+                    "Date": "26/05/2021",
+                    "Round start-time": "Wed May 26 00:16:21 2021",
                     "Round Matchs": [
                         {
                             "Player1": "Bug",
@@ -205,6 +206,9 @@
                             "Score2": 1
                         }
                     ]
+                },
+                {
+                    "Round end-time": "Wed May 26 00:16:26 2021"
                 }
             ]
         }
@@ -218,11 +222,11 @@
             "Description": "none",
             "Players": [
                 {
-                    "Name": "Zinedine",
-                    "Surname": "Zidane",
-                    "Birthday": "12-12-2012",
+                    "Name": "André",
+                    "Surname": "Allègre",
+                    "Birthday": "12-12-1914",
                     "Sexe": "m",
-                    "ELO": "20"
+                    "ELO": "12"
                 },
                 {
                     "Name": "Benzema",
@@ -232,18 +236,18 @@
                     "ELO": "120"
                 },
                 {
-                    "Name": "André",
-                    "Surname": "Allègre",
-                    "Birthday": "12-12-1914",
-                    "Sexe": "m",
-                    "ELO": "12"
-                },
-                {
-                    "Name": "René",
-                    "Surname": "Alpsteg",
+                    "Name": "Zinedine",
+                    "Surname": "Zidane",
                     "Birthday": "12-12-2012",
                     "Sexe": "m",
-                    "ELO": "50"
+                    "ELO": "20"
+                },
+                {
+                    "Name": "Marcel",
+                    "Surname": "Adamczyk",
+                    "Birthday": "12-12-2012",
+                    "Sexe": "m",
+                    "ELO": "3"
                 },
                 {
                     "Name": "Claude",
@@ -253,13 +257,6 @@
                     "ELO": "30"
                 },
                 {
-                    "Name": "Robert",
-                    "Surname": "Accard",
-                    "Birthday": "12-12-2012",
-                    "Sexe": "m",
-                    "ELO": "50"
-                },
-                {
                     "Name": "Eric",
                     "Surname": "Abidal",
                     "Birthday": "12-12-2012",
@@ -267,11 +264,18 @@
                     "ELO": "40"
                 },
                 {
-                    "Name": "Marcel",
-                    "Surname": "Adamczyk",
+                    "Name": "René",
+                    "Surname": "Alpsteg",
                     "Birthday": "12-12-2012",
                     "Sexe": "m",
-                    "ELO": "3"
+                    "ELO": "50"
+                },
+                {
+                    "Name": "Robert",
+                    "Surname": "Accard",
+                    "Birthday": "12-12-2012",
+                    "Sexe": "m",
+                    "ELO": "50"
                 }
             ],
             "Numbers of rounds": 4,
@@ -374,35 +378,37 @@
                 },
                 {
                     "Name": "Round 4",
-                    "Date": "date",
-                    "Round start-time": "Tue May 25 12:37:26 2021",
-                    "Round end-time": null,
+                    "Date": "26/05/2021",
+                    "Round start-time": "Wed May 26 00:14:30 2021",
                     "Round Matchs": [
+                        {
+                            "Player1": "André",
+                            "Score1": 1,
+                            "Player2": "Benzema",
+                            "Score2": 0
+                        },
                         {
                             "Player1": "Zinedine",
                             "Score1": 0,
-                            "Player2": "Benzema",
+                            "Player2": "Marcel",
                             "Score2": 1
-                        },
-                        {
-                            "Player1": "André",
-                            "Score1": 0.5,
-                            "Player2": "René",
-                            "Score2": 0.5
                         },
                         {
                             "Player1": "Claude",
-                            "Score1": 0,
-                            "Player2": "Robert",
-                            "Score2": 1
+                            "Score1": 0.5,
+                            "Player2": "Eric",
+                            "Score2": 0.5
                         },
                         {
-                            "Player1": "Eric",
-                            "Score1": 1,
-                            "Player2": "Marcel",
-                            "Score2": 0
+                            "Player1": "René",
+                            "Score1": 0.5,
+                            "Player2": "Robert",
+                            "Score2": 0.5
                         }
                     ]
+                },
+                {
+                    "Round end-time": "Wed May 26 00:14:42 2021"
                 }
             ]
         }
@@ -595,404 +601,6 @@
                             "Score2": 0
                         }
                     ]
-                }
-            ]
-        }
-    },
-    "Nouveautournoi": {
-        "1": {
-            "Name": "Nouveautournoi",
-            "Place": "Lyon",
-            "Date": "25/05/2021",
-            "Type": "Quick",
-            "Description": "Aucune",
-            "Players": [
-                {
-                    "Name": "B",
-                    "Surname": "C",
-                    "Birthday": "12-12-2012",
-                    "Sexe": "m",
-                    "ELO": "2"
-                },
-                {
-                    "Name": "C",
-                    "Surname": "D",
-                    "Birthday": "12-12-2012",
-                    "Sexe": "m",
-                    "ELO": "3"
-                },
-                {
-                    "Name": "G",
-                    "Surname": "H",
-                    "Birthday": "12-12-2012",
-                    "Sexe": "m",
-                    "ELO": "5"
-                },
-                {
-                    "Name": "H",
-                    "Surname": "I",
-                    "Birthday": "12-12-2012",
-                    "Sexe": "m",
-                    "ELO": "6"
-                },
-                {
-                    "Name": "A",
-                    "Surname": "B",
-                    "Birthday": "12-12-2012",
-                    "Sexe": "m",
-                    "ELO": "1"
-                },
-                {
-                    "Name": "D",
-                    "Surname": "E",
-                    "Birthday": "12-12-2012",
-                    "Sexe": "m",
-                    "ELO": "3"
-                },
-                {
-                    "Name": "F",
-                    "Surname": "G",
-                    "Birthday": "12-12-2012",
-                    "Sexe": "m",
-                    "ELO": "4"
-                },
-                {
-                    "Name": "I",
-                    "Surname": "J",
-                    "Birthday": "12-12-2012",
-                    "Sexe": "m",
-                    "ELO": "7"
-                }
-            ],
-            "Numbers of rounds": 4,
-            "Rounds": [
-                {
-                    "Name": "Round 1",
-                    "Date": "25/05/2021",
-                    "Round start-time": "Tue May 25 14:32:31 2021",
-                    "Round end-time": null,
-                    "Round Matchs": [
-                        {
-                            "Player1": "A",
-                            "Score1": 1,
-                            "Player2": "F",
-                            "Score2": 0
-                        },
-                        {
-                            "Player1": "B",
-                            "Score1": 0,
-                            "Player2": "G",
-                            "Score2": 1
-                        },
-                        {
-                            "Player1": "C",
-                            "Score1": 0.5,
-                            "Player2": "H",
-                            "Score2": 0.5
-                        },
-                        {
-                            "Player1": "D",
-                            "Score1": 0,
-                            "Player2": "I",
-                            "Score2": 1
-                        }
-                    ]
-                },
-                {
-                    "Name": "Round 2",
-                    "Date": "25/05/2021",
-                    "Round start-time": "Tue May 25 14:32:35 2021",
-                    "Round end-time": null,
-                    "Round Matchs": [
-                        {
-                            "Player1": "A",
-                            "Score1": 1,
-                            "Player2": "G",
-                            "Score2": 0
-                        },
-                        {
-                            "Player1": "I",
-                            "Score1": 0,
-                            "Player2": "C",
-                            "Score2": 1
-                        },
-                        {
-                            "Player1": "H",
-                            "Score1": 0.5,
-                            "Player2": "B",
-                            "Score2": 0.5
-                        },
-                        {
-                            "Player1": "D",
-                            "Score1": 0,
-                            "Player2": "F",
-                            "Score2": 1
-                        }
-                    ]
-                },
-                {
-                    "Name": "Round 3",
-                    "Date": "25/05/2021",
-                    "Round start-time": "Tue May 25 14:35:19 2021",
-                    "Round end-time": null,
-                    "Round Matchs": [
-                        {
-                            "Player1": "A",
-                            "Score1": 0,
-                            "Player2": "B",
-                            "Score2": 1
-                        },
-                        {
-                            "Player1": "C",
-                            "Score1": 1,
-                            "Player2": "D",
-                            "Score2": 0
-                        },
-                        {
-                            "Player1": "F",
-                            "Score1": 0,
-                            "Player2": "G",
-                            "Score2": 1
-                        },
-                        {
-                            "Player1": "H",
-                            "Score1": 1,
-                            "Player2": "I",
-                            "Score2": 0
-                        }
-                    ]
-                },
-                {
-                    "Name": "Round 4",
-                    "Date": "25/05/2021",
-                    "Round start-time": "Tue May 25 14:35:56 2021",
-                    "Round end-time": null,
-                    "Round Matchs": [
-                        {
-                            "Player1": "B",
-                            "Score1": 0,
-                            "Player2": "C",
-                            "Score2": 1
-                        },
-                        {
-                            "Player1": "G",
-                            "Score1": 0.5,
-                            "Player2": "H",
-                            "Score2": 0.5
-                        },
-                        {
-                            "Player1": "A",
-                            "Score1": 0,
-                            "Player2": "D",
-                            "Score2": 1
-                        },
-                        {
-                            "Player1": "F",
-                            "Score1": 1,
-                            "Player2": "I",
-                            "Score2": 0
-                        }
-                    ]
-                }
-            ]
-        }
-    },
-    "Chess tournament": {
-        "1": {
-            "Name": "Chess tournament",
-            "Place": "Londres",
-            "Date": "25/05/2021",
-            "Type": "Splitz",
-            "Description": "Aucune",
-            "Players": [
-                {
-                    "Name": "A",
-                    "Surname": "B",
-                    "Birthday": "12-12-2012",
-                    "Sexe": "m",
-                    "ELO": "1"
-                },
-                {
-                    "Name": "A",
-                    "Surname": "B",
-                    "Birthday": "12-12-2012",
-                    "Sexe": "m",
-                    "ELO": "2"
-                },
-                {
-                    "Name": "A",
-                    "Surname": "B",
-                    "Birthday": "12-12-2012",
-                    "Sexe": "m",
-                    "ELO": "3"
-                },
-                {
-                    "Name": "A",
-                    "Surname": "B",
-                    "Birthday": "12-12-2012",
-                    "Sexe": "m",
-                    "ELO": "4"
-                },
-                {
-                    "Name": "A",
-                    "Surname": "B",
-                    "Birthday": "12-12-2012",
-                    "Sexe": "m",
-                    "ELO": "5"
-                },
-                {
-                    "Name": "A",
-                    "Surname": "B",
-                    "Birthday": "12-12-2012",
-                    "Sexe": "m",
-                    "ELO": "6"
-                },
-                {
-                    "Name": "A",
-                    "Surname": "B",
-                    "Birthday": "21-12-2012",
-                    "Sexe": "m",
-                    "ELO": "6"
-                },
-                {
-                    "Name": "A",
-                    "Surname": "B",
-                    "Birthday": "12-12-2012",
-                    "Sexe": "m",
-                    "ELO": "7"
-                }
-            ],
-            "Numbers of rounds": 4,
-            "Rounds": [
-                {
-                    "Name": "Round 1",
-                    "Date": "25/05/2021",
-                    "Round start-time": "Tue May 25 14:46:49 2021",
-                    "Round end-time": null,
-                    "Round Matchs": [
-                        {
-                            "Player1": "A",
-                            "Score1": 1,
-                            "Player2": "A",
-                            "Score2": 0
-                        },
-                        {
-                            "Player1": "A",
-                            "Score1": 0,
-                            "Player2": "A",
-                            "Score2": 1
-                        },
-                        {
-                            "Player1": "A",
-                            "Score1": 0.5,
-                            "Player2": "A",
-                            "Score2": 0.5
-                        },
-                        {
-                            "Player1": "A",
-                            "Score1": 0,
-                            "Player2": "A",
-                            "Score2": 1
-                        }
-                    ]
-                },
-                {
-                    "Name": "Round 2",
-                    "Date": "25/05/2021",
-                    "Round start-time": "Tue May 25 14:46:53 2021",
-                    "Round end-time": "endtime",
-                    "Round Matchs": [
-                        {
-                            "Player1": "A",
-                            "Score1": 0,
-                            "Player2": "A",
-                            "Score2": 1
-                        },
-                        {
-                            "Player1": "A",
-                            "Score1": 0.5,
-                            "Player2": "A",
-                            "Score2": 0.5
-                        },
-                        {
-                            "Player1": "A",
-                            "Score1": 0,
-                            "Player2": "A",
-                            "Score2": 1
-                        },
-                        {
-                            "Player1": "A",
-                            "Score1": 1,
-                            "Player2": "A",
-                            "Score2": 0
-                        }
-                    ]
-                },
-                {
-                    "Name": "Round 3",
-                    "Date": "25/05/2021",
-                    "Round start-time": "Tue May 25 14:53:18 2021",
-                    "Round end-time": "endtime",
-                    "Round Matchs": [
-                        {
-                            "Player1": "A",
-                            "Score1": 1,
-                            "Player2": "A",
-                            "Score2": 0
-                        },
-                        {
-                            "Player1": "A",
-                            "Score1": 0,
-                            "Player2": "A",
-                            "Score2": 1
-                        },
-                        {
-                            "Player1": "A",
-                            "Score1": 0.5,
-                            "Player2": "A",
-                            "Score2": 0.5
-                        },
-                        {
-                            "Player1": "A",
-                            "Score1": 0,
-                            "Player2": "A",
-                            "Score2": 1
-                        }
-                    ]
-                },
-                {
-                    "Name": "Round 4",
-                    "Date": "25/05/2021",
-                    "Round start-time": "Tue May 25 15:30:01 2021",
-                    "Round Matchs": [
-                        {
-                            "Player1": "A",
-                            "Score1": 1,
-                            "Player2": "A",
-                            "Score2": 0
-                        },
-                        {
-                            "Player1": "A",
-                            "Score1": 0,
-                            "Player2": "A",
-                            "Score2": 1
-                        },
-                        {
-                            "Player1": "A",
-                            "Score1": 1,
-                            "Player2": "A",
-                            "Score2": 0
-                        },
-                        {
-                            "Player1": "A",
-                            "Score1": 0,
-                            "Player2": "A",
-                            "Score2": 1
-                        }
-                    ]
-                },
-                {
-                    "Round end-time": "Tue May 25 15:30:04 2021"
                 }
             ]
         }

@@ -5,7 +5,7 @@ import re
 def get_tournament_name():
     """ Fonction qui enregistre et renvoie le nom du tournoi """
     name = input("Enter the tournament name : ")
-    while re.match("^.*[a-z].*$", name) == None:
+    while re.match("^.*[a-z].*$", name) is None:
         print("The name is not correct, write it again in letters.")
         name = input("Enter the tournament name : ")
     print(f"{name.capitalize()}")

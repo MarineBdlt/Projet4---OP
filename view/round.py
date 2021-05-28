@@ -6,7 +6,7 @@ def get_round_name():
     """ Fonction qui enregistre le numéro du round """
     name_input = input("Enter the round number : ")
     name = f"Round {name_input}"
-    while name_input.isdigit() == False:
+    while not name_input.isdigit():
         name_input = input("Enter the round number : ")
         name = f"Round {name_input}"
     return name

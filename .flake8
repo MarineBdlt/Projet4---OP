@@ -1,2 +1,5 @@
 [flake8]
 max-line-length=119
+exclude=chess_application/
+format=html
+htmldir=flake-report
