@@ -4,7 +4,7 @@ from model.match import Match
 class Round:
     """ Classe qui instancie un round """
 
-    def __init__(self, name, date, starttime, endtime, matchs=None):
+    def __init__(self, name, date, starttime, endtime=None, matchs=None):
         self.name = name
         self.date = date
         self.starttime = starttime

@@ -10,7 +10,7 @@ db = TinyDB("tournament.json", ensure_ascii=False, encoding="utf8", indent=4)
 actors_db = TinyDB("actors.json", ensure_ascii=False, encoding="utf8", indent=4)
 
 app = tkinter.Tk()
-app.geometry("690x200")
+app.geometry("660x200")
 app.title("Chess Tournaments")
 app.config(background="black")
 

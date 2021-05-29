@@ -316,7 +316,6 @@ class TournamentControler:
                 serialized_round["Name"],
                 serialized_round["Date"],
                 serialized_round["Round start-time"],
-                serialized_round["Round end-time"],
                 [],
             )
 
