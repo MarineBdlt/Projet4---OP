@@ -101,10 +101,17 @@ class TournamentControler:
 
             player2_id = player2.surname + player2.elo
             while player2_id in player1.opponents:
-                i += 1
-                player2 = players[i + 1]
-                player2_index = i + 1
-                player2_id = player2.surname + player2.elo
+                try:
+                    i += 1
+                    player2 = players[i + 1]
+                    player2_index = i + 1
+                    player2_id = player2.surname + player2.elo
+
+                except IndexError:
+                    player2 = players[i]
+                    player2_index = i
+                    player2_id = player2.surname + player2
+                    break
 
             current_round.add_match(player1, player2)
 
@@ -228,15 +235,6 @@ class TournamentControler:
 
             next_round.endtime = vr.get_round_endtime()
             endtime = next_round.serialize_endtime()
-
-            self.tournament_progress.serialized_rounds.append(endtime)
-            self.tournament_progress.serialized_rounds = (
-                self.tournament_progress.serialized_rounds
-            )
-            self.serialized_tournament = self.tournament_progress.serialize()
-            self.tournament_progress.serialized_tournament = (
-                self.tournament_progress.serialize()
-            )
 
             tournament_table.update(self.tournament_progress.serialized_tournament)
             vt.print_info(f"End of the {round_name} at {next_round.endtime}.")
