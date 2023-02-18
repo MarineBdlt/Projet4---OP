@@ -71,5 +71,3 @@ VisualStudioCode](https://code.visualstudio.com/) - Text editor
 ## Acknowledgements
 
 Thanks to **Ranga Gonnage** for his teaching and support.
-
-Translated with www.DeepL.com/Translator (free version)
